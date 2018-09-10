@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html{
+  height: 100%;
+  Width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+#instrument {
+    height: 180px;
+    width: 880px;
+    padding-right: 10px;
+    padding-top: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.key {
+  margin-top: 5px;
+  margin-left: 15px;
+  width: 100px;
+  height: 160px;
+  background-color: blue;
+  float: left;
+  border-radius: 40%;
+  opacity: 0.5;
+}
+
+.key:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#akey{
+  background-color: blue;
+  border: 4px solid white;
+}
+#bkey{
+  background-color: red;
+  border: 4px solid white;
+}
+#ckey{
+  background-color:purple;
+  border: 4px solid white;
+}
+#dkey{
+  background-color: pink;
+  border: 4px solid white;
+}
+#ekey{
+  background-color: orange;
+  border: 4px solid white;
+}
+#fkey{
+  background-color: yellow;
+  border: 4px solid white;
+}
+#gkey{
+  background-color: green;
+  border: 4px solid white;
+}

@@ -77,30 +77,51 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }, true);
 
   document.getElementById("ckey").addEventListener("click", function functionName() {
+    fadebox = document.getElementById("ckey");
+    fadebox.style.opacity = 1;
+    fadeOut(fadebox);
     cNote.currentTime = 0;
     cNote.play();
   });
   document.getElementById("dkey").addEventListener("click", function functionName() {
+    fadebox = document.getElementById("dkey");
+    fadebox.style.opacity = 1;
+    fadeOut(fadebox);
     dnote.currentTime = 0;
     dNote.play();
   });
   document.getElementById("ekey").addEventListener("click", function functionName() {
+    fadebox = document.getElementById("ekey");
+    fadebox.style.opacity = 1;
+    fadeOut(fadebox);
     eNote.currentTime = 0;
     eNote.play();
   });
   document.getElementById("fkey").addEventListener("click", function functionName() {
+    fadebox = document.getElementById("fkey");
+    fadebox.style.opacity = 1;
+    fadeOut(fadebox);
     fNote.currentTime = 0;
     fNote.play();
   });
   document.getElementById("gkey").addEventListener("click", function functionName() {
+    fadebox = document.getElementById("gkey");
+    fadebox.style.opacity = 1;
+    fadeOut(fadebox);
     gNote.currentTime = 0;
     gNote.play();
   });
   document.getElementById("akey").addEventListener("click", function functionName() {
+    fadebox = document.getElementById("akey");
+    fadebox.style.opacity = 1;
+    fadeOut(fadebox);
     aNote.currentTime = 0;
     aNote.play();
   });
   document.getElementById("bkey").addEventListener("click", function functionName() {
+    fadebox = document.getElementById("bkey");
+    fadebox.style.opacity = 1;
+    fadeOut(fadebox);
     bNote.currentTime = 0;
     bNote.play();
   });
